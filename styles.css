@@ -65,7 +65,7 @@ h1 {
     display: flex;
     justify-content: center;
     background-color: #fff;
-    background-image: url(/assets/topRightPortal.svg);
+    background-image: url(assets/topRightPortal.svg);
     background-position: right top;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -132,7 +132,7 @@ button {
     /* flex-direction: column; */
     /* justify-content: center; */
     background-color: #fff;
-    background-image: url(/assets/bottomLeftPortal.svg);
+    background-image: url(assets/bottomLeftPortal.svg);
     background-position: left top;
     background-repeat: no-repeat;
     background-size: auto 100%;
