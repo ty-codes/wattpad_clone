@@ -888,7 +888,9 @@ button:hover {
 }
 
 @media (max-width: 670px) {
-
+    .intro2-text {
+        width: 48%;
+    }
     .quote {
         width: 43px;
     }
@@ -955,7 +957,8 @@ button:hover {
 
 @media (max-width: 660px) {
     .intro2 .partner {
-        width: 3em;
+        width: 2.3em;
+        margin-right: 1em;
     }
     .intro3-text {
         width: 45%;
@@ -968,6 +971,10 @@ button:hover {
     .rank {
         margin-top: -3em;
         background-size: auto 111%;
+    }
+    .intro3 .partner {
+        margin-right: 0.9em;
+        width: 3em;
     }
 }
 
@@ -986,13 +993,15 @@ button:hover {
     }
     .intro2-text {
         margin-left: 0;
+        padding-right: 2.8em;
     }
     .intro2-pic {
         width: 15em;
         margin-left: -6em;
     }
     .intro2 .partner {
-        margin-right: 1.5em;
+        margin-right: 0.5em;
+        width: 2em;
     }
     .hero-devices {
         width: 109%;
@@ -1014,13 +1023,15 @@ button:hover {
     }
 
     .intro3-text img, .intro2-text img {
-        width: 119%;
+        width: 10em;
     }
 
     .intro3-text {
         margin-left: -92px;
     }
-
+    .intro3 .partner {
+        width: 3em
+    }
     .carousel-control-next-icon {
         height: 40px !important;
         width: 40px !important;
@@ -1162,6 +1173,12 @@ button:hover {
 }
 
 @media (max-width: 406px) {
+    .intro {
+        background-color: red;
+    }
+    .intro2-text img, .intro3-text img {
+        width: 8em;
+    }
     .slider {
         height: 520px;
     }
@@ -1188,7 +1205,7 @@ button:hover {
     }
     .intro2-text {
         margin-left: -2em;
-        width: 70%;
+        width: 50%;
     }
     .step-description {
         width: 20em;
@@ -1255,6 +1272,10 @@ button:hover {
     }
     .intro2-text {
         margin-left: -9px;
+        
+    }
+    .intro2-text img {
+        width: 6.8em;
     }
     .footer img {
         height: 7em;
