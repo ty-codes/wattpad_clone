@@ -1173,9 +1173,7 @@ button:hover {
 }
 
 @media (max-width: 406px) {
-    .intro {
-        background-color: red;
-    }
+    
     .intro2-text img, .intro3-text img {
         width: 8em;
     }
