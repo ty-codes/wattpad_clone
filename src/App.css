@@ -20,7 +20,6 @@ body {
 }
 
 .navbar {
-    padding-top: 1em;
     background-color: white;
     color: #222222;
     width: 90%;
@@ -820,6 +819,9 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+    .logo {
+        margin-left: 1em;
+    }
     .navbar, .searchbar {
         width: 100%;
     }
@@ -827,8 +829,8 @@ button:hover {
         margin-bottom: 2em;
     }
 
-    #offcanvasNavbarDropdown-expand-md {
-        padding: 0 0.8em;
+    #offcanvasNavbarDropdown-expand-md, .searchbar {
+        padding: 0 0;
     }
     #find-more {
         padding: 4em;
@@ -1278,8 +1280,16 @@ button:hover {
 
     button {
         margin-bottom: 1em;
+        font-size: 0.8em;
     }
     .intro2-subtitle, .intro3-subtitle {
         font-size: 15.5px;
     }
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-nav {
+    flex-direction: row;
+    justify-content: space-around;
+}
 }
