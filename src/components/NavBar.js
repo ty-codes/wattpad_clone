@@ -26,7 +26,7 @@ const NavBar = () => {
                                         </Offcanvas.Title>
                                     </Offcanvas.Header>
                                     <Offcanvas.Body>
-                                        <Nav className="justify-content-center flex-grow-1 pe-3">
+                                        <Nav className="justify-content flex-grow-1 pe-3">
                                             <Nav.Link className='navlink' href="/">Browse</Nav.Link>
                                             <Nav.Link className='navlink' href="/">Writer Opportunities</Nav.Link>
                                             <Nav.Link className='navlink' href="/">Community</Nav.Link>

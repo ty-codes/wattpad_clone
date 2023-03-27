@@ -4,7 +4,7 @@ import Discovery from "./Discovery";
 import Footer from "./Footer";
 import Intro from "./Intro";
 import FindMore from "./FindMore";
-import HowItWorks from "./HowItWworks";
+import HowItWorks from "./HowItWorks";
 
 const Home = () => {
     return (

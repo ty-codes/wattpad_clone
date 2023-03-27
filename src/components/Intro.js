@@ -60,10 +60,10 @@ const Intro = () => {
                         published books and onto bookshelves around the world.
                         <br /><br />Wattpad Books works with partners such as:
                     </p>
-                    <div class="partners">
-                        <img class="partner" src={require("../assets/macmillan.png")} alt="macmillan" />
-                        <img class="partner" src={require("../assets/anvil.png")} alt="anvil" />
-                        <img class="partner" src={require("../assets/penguin.png")} alt="penguin" />
+                    <div className="partners">
+                        <img className="partner" src={require("../assets/macmillan.png")} alt="macmillan" />
+                        <img className="partner" src={require("../assets/anvil.png")} alt="anvil" />
+                        <img className="partner" src={require("../assets/penguin.png")} alt="penguin" />
                 </div>
                 </div>
 
