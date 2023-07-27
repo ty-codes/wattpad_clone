@@ -1,6 +1,8 @@
 # Wattpad clone📖
 A clone of the landing page of Wattpad, an application that connects a global community of millions of readers and writers through the power of story.
 
+# Hosted on
+- [Netlify](https://wattpad-clone.netlify.app/)
 
 ## Build Setup
 
